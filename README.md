@@ -13,7 +13,7 @@
 # Converge ICT - PH 
 
 # To Download 
-## Go To https://github.com/whiplashcd/SonicTerminator/releases/tag/V1
+Go To https://github.com/whiplashcd/SonicTerminator/releases
 
 ## 🚫 Disclaimer
 
