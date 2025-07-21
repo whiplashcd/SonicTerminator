@@ -8,6 +8,9 @@
 - Optionally checks if Telnet (port 23) is open and available
 - Reveals valid Telnet credentials if found
 
+<img width="1017" height="475" alt="image" src="https://github.com/user-attachments/assets/ec5d57bf-ccf7-4061-af07-c9009f67c3c5" />
+
+
 ## 📌 Supported ISP with ZTE ONU/GPON
 # PLDT - PH
 # Converge ICT - PH 
