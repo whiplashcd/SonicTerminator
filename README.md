@@ -20,5 +20,5 @@ Unauthorized access to networking equipment may be illegal in your country.
 
 ## 👤 Author
 
-Made with 💻 by Arex aka whiplashcd  
+Made by Arex aka whiplashcd  
 GitHub: [https://github.com/whiplashcd](https://github.com/whiplashcd)
