@@ -12,6 +12,9 @@
 # PLDT - PH
 # Converge ICT - PH 
 
+# To Download 
+## Go To https://github.com/whiplashcd/SonicTerminator/releases/tag/V1
+
 ## 🚫 Disclaimer
 
 This tool is intended for **educational and diagnostic purposes only**.  
