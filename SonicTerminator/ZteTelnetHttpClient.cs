@@ -146,7 +146,6 @@ namespace SonicTerminator
             "b4c3e2d6273de65d729cbc3d03fd76c19c25a89247e4180f243f4f67ec97f499";
     }
 
-    // Simple AES ECB mode for .NET 4.7.3 (no native support)
     public class SimpleAes
     {
         private readonly System.Security.Cryptography.Aes aes;

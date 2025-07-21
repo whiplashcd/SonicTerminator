@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Net.Sockets;
 
 namespace SonicTerminator
 {
@@ -17,6 +18,10 @@ namespace SonicTerminator
         {
             InitializeComponent();
             txtConsole.ReadOnly = true;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = true; 
+            this.StartPosition = FormStartPosition.CenterScreen; 
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -79,13 +84,8 @@ namespace SonicTerminator
                 string dots = new string('.', i);
                 Log(baseMessage + dots, Color.Gray);
 
-                // Wait between updates except after last
                 if (i < dotCount)
                     await Task.Delay(delayMs);
-
-                // Optional: Clear last line for smooth animation
-                // But since clearing line in RichTextBox is complex,
-                // we just append lines for simplicity here.
             }
         }
 
@@ -263,5 +263,27 @@ namespace SonicTerminator
         {
             this.ActiveControl = null;
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start(new ProcessStartInfo
+                {
+                    FileName = "https://github.com/whiplashcd", 
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to open link. " + ex.Message);
+            }
+        }
+
     }
 }
