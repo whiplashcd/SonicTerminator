@@ -9,8 +9,8 @@
 - Reveals valid Telnet credentials if found
 
 ## 📌 Supported ISP with ZTE ONU/GPON
-PLDT - PH
-Converge - PH 
+# PLDT - PH
+# Converge ICT - PH 
 
 ## 🚫 Disclaimer
 
